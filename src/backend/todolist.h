@@ -6,7 +6,7 @@
 class TodoList : public QAbstractListModel
 {
     Q_OBJECT
-    // Ёто макросы дл€ интеграции с QML (объ€сню позже)
+    // Ёто макросы дл€ интеграции с QML 
     QML_ELEMENT
     QML_SINGLETON
 

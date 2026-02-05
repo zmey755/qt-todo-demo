@@ -4,4 +4,6 @@ qt_add_qml_module(SmartTodoFrontend
     RESOURCE_PREFIX /qml
     QML_FILES
         main.qml
+        ImageProcessingTab.qml
+        OpenCVTab.qml
 )
