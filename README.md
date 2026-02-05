@@ -1,13 +1,26 @@
-# Qt/QML Desktop Demo Project
+# Qt/QML Desktop Demo: Smart Todo List
 
-A demonstration desktop application built with C++, Qt6, and QML. Created to showcase practical skills in modern cross-platform development.
+A functional desktop application built with **C++17**, **Qt6**, and **QML**. Created to showcase practical skills for a job application.
 
-## Purpose
-This project serves as a code sample for a job application, highlighting:
-- C++ (Qt) backend logic
-- QML frontend and UI/UX
-- Integration between C++ and QML
-- CMake build system
+## 🎯 Purpose
+This project demonstrates:
+- **C++ (Qt) backend logic**: Custom `QAbstractListModel` subclass (`TodoList`)
+- **QML frontend**: Modern, declarative UI with QtQuick
+- **C++/QML integration**: Seamless communication via `Q_INVOKABLE`, properties, and models
+- **CMake build system**: Professional, modular project configuration
+- **Desktop application development**: Cross-platform executable
 
-## Project Status
-In active development. Basic structure is being set up.
+## 🚀 Current Features
+- Core C++ data model with task list management
+- QML user interface with input field and interactive list
+- Ability to add and remove tasks
+- Proper model-view delegation
+
+## 🛠️ Technology Stack
+- **Language**: C++17
+- **Framework**: Qt6 (Core, Quick)
+- **UI**: QML / QtQuick
+- **Build System**: CMake 3.16+
+- **Version Control**: Git
+
+## 📁 Project Structure
