@@ -7,6 +7,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Core Quick)
+find_package(OpenCV REQUIRED)
 
 add_subdirectory(src/backend)
 add_subdirectory(src/frontend)
@@ -18,4 +19,5 @@ target_link_libraries(QtTodoDemo PRIVATE
     SmartTodoFrontend
     Qt6::Core
     Qt6::Quick
+    ${OpenCV_LIBS}
 )
